@@ -1,2 +1,13 @@
 # Learning-Angular-Framework
-Repo is for demonstration propose, just to show about what i'm learning in angular framework, using the platform Udemy, the courser name is  Master Angular (formerly "Angular 2"), link: https://www.udemy.com/course/the-complete-guide-to-angular-2/
+Repo is for demonstration propose, just to show what i'm learning in the angular framework, using the platform Udemy, the courser name is  Master Angular (formerly "Angular 2") by Maximilian Schwarzmüller, link to the course: https://www.udemy.com/course/the-complete-guide-to-angular-2/.
+
+## Setup the basic tools
+
+First, you will need to download and install the Node.js libraries from this link: https://nodejs.org/en. Simply configure them as you prefer. Then, use the command: 
+    `npm install -g @angular/cli` 
+Use in the terminal or VS Code terminal.
+
+## Angular
+
+All the documentacion about Angular is available [here!](https://angular.dev/overview), like other frameworks(Spring Boot) is necessary create a basic project using the on Angular, command: 
+
