@@ -9,5 +9,6 @@ Use in the terminal or VS Code terminal.
 
 ## Angular
 
-All the documentacion about Angular is available [here!](https://angular.dev/overview), like other frameworks(Spring Boot) is necessary create a basic project using the on Angular, command: 
-
+All the documentacion about Angular is available [here!](https://angular.dev/overview), they have very comprehensive documentation covering everything you need to understand., like other frameworks(Spring Boot) is necessary create a basic project 'body' using the framework, command to create a new project:
+    ng new <project-name>
+After that, you can start playing if it's ANGULAR!
