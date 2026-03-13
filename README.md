@@ -4,11 +4,15 @@ Repo is for demonstration propose, just to show what i'm learning in the angular
 ## Setup the basic tools
 
 First, you will need to download and install the Node.js libraries from this link: https://nodejs.org/en. Simply configure them as you prefer. Then, use the command: 
+
     `npm install -g @angular/cli` 
+
 Use in the terminal or VS Code terminal.
 
 ## Angular
 
 All the documentacion about Angular is available [here!](https://angular.dev/overview), they have very comprehensive documentation covering everything you need to understand., like other frameworks(Spring Boot) is necessary create a basic project 'body' using the framework, command to create a new project:
-    ng new <project-name>
+
+    'ng new project-name'
+
 After that, you can start playing if it's ANGULAR!
