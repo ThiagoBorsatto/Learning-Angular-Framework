@@ -9,6 +9,8 @@ First, you will need to download and install the Node.js libraries from this lin
 
 Use in the terminal or VS Code terminal.
 
+LocalHost: http://localhost:4200
+
 ## Angular
 
 All the documentacion about Angular is available [here!](https://angular.dev/overview), they have very comprehensive documentation covering everything you need to understand., like other frameworks(Spring Boot) is necessary create a basic project 'body' using the framework, command to create a new project:
