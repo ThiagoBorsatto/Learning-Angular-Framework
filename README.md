@@ -1,6 +1,8 @@
 # Learning-Angular-Framework
 Repo is for demonstration propose, just to show what i'm learning in the angular framework, using the platform Udemy, the courser name is  Master Angular (formerly "Angular 2") by Maximilian Schwarzmüller, link to the course: https://www.udemy.com/course/the-complete-guide-to-angular-2/.
 
+The first section of the course is the Modern Angular version with the most new features than the Older Angular version (version 16 to older).
+
 ## Setup the basic tools
 
 First, you will need to download and install the Node.js libraries from this link: https://nodejs.org/en. Simply configure them as you prefer. Then, use the command: 
