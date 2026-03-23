@@ -1,10 +1,13 @@
-<app-header />
+<app-header (featureSelected)="onNavigate($event)" />
 
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <app-recipes />
-      <app-shopping-list />
+      @if (loadedfeature === 'recipe') {
+        <app-recipes />
+      } @else if (loadedfeature === 'shopping-list') {
+        <app-shopping-list />
+      }
     </div>
   </div>
 </div>
