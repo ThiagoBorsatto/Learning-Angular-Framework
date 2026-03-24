@@ -11,21 +11,32 @@ import { ShoppingList } from './shopping-list/shopping-list';
 import { ShoppingEdit } from './shopping-list/shopping-edit/shopping-edit';
 import { RecipesItem } from './recipes/recipes-list/recipes-item/recipes-item';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { ShoppingListService } from './shopping-list/shopping-list.service';
+import { RecipeStart } from './recipes/recipe-start/recipe-start';
+import { RecipeEdit } from './recipes/recipe-edit/recipe-edit';
+import { FormsModule, NgForm } from '@angular/forms';
 
 @NgModule({
   declarations: [
     App,
     HeaderComponent,
-    Recipes, 
-    RecipesList, 
+    Recipes,
+    RecipesList,
     RecipesItem,
     RecipesDetail,
     ShoppingList,
     ShoppingEdit,
     DropdownDirective,
+    RecipeStart,
+    RecipeEdit,
   ],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [provideBrowserGlobalErrorListeners()],
+  providers: [
+    provideBrowserGlobalErrorListeners(), 
+    ShoppingListService, 
+    FormsModule,
+    NgForm,
+  ],
   bootstrap: [App],
 })
 export class AppModule {}

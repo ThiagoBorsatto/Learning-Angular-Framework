@@ -6,10 +6,4 @@ import { Component} from '@angular/core';
   standalone: false,
   styleUrl: './app.css'
 })
-export class App {
-  loadedfeature = 'recipe';
-
-  onNavigate(feature: string) {
-    this.loadedfeature = feature;
-  }
-}
+export class App {}

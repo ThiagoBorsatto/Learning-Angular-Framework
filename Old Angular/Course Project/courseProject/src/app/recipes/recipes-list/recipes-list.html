@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-xs-12">
-        <button class="btn btn-success">New Recipe</button>
+        <button class="btn btn-success" (click)="onNewRecipe()">New Recipe</button>
     </div>
 </div>
 <hr>
@@ -8,8 +8,8 @@
     <div class="col-xs-12">
         @for (recipeEl of recipes; track $index) {
             <app-recipes-item 
-                [recipe]="recipeEl" 
-                (recipeSelected)="onRecipeSelected(recipeEl)"
+                [recipe]="recipeEl"
+                [index]="$index"
             />
         }
     </div>
