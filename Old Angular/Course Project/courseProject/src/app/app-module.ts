@@ -30,7 +30,11 @@ import { FormsModule, NgForm } from '@angular/forms';
     RecipeStart,
     RecipeEdit,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule, 
+    AppRoutingModule,
+    FormsModule
+  ],
   providers: [
     provideBrowserGlobalErrorListeners(), 
     ShoppingListService, 
