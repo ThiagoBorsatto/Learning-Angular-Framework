@@ -15,6 +15,7 @@ import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { RecipeStart } from './recipes/recipe-start/recipe-start';
 import { RecipeEdit } from './recipes/recipe-edit/recipe-edit';
 import { FormsModule, NgForm, ReactiveFormsModule } from '@angular/forms';
+import { RecipeService } from './recipes/recipe.service';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { FormsModule, NgForm, ReactiveFormsModule } from '@angular/forms';
     ShoppingListService, 
     FormsModule,
     NgForm,
+    RecipeService
   ],
   bootstrap: [App],
 })
